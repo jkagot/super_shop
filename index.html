@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="ru">  
+	<head>
+        <meta charset="utf-8"> 
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<!--<link href="dist/img/favicon.ico" rel="shortcut icon">-->
+        <title>Super-shop</title>
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+	<body>
+		<header>
+			<div class="container">
+				<div class="header-wrapper">
+					<a href="./index.html" class="logo">
+					</a>
+					<div class="header-inner">
+						<div class="top-part">
+							<button class="top-menu-toggle" data-toggle="dropdown" aria-expanded="true">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+							<button class="top-menu-toggle2" data-toggle="dropdown" aria-expanded="true">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+							<ul class="top-menu">
+								<li>
+									<a href="javascript:void(0);">Доставка и оплата</a>
+								</li>
+								<li>
+									<a href="javascript:void(0);">Наши магазины</a>
+								</li>
+								<li>
+									<a href="javascript:void(0);">Новости</a>
+								</li>
+								<li>
+									<a href="javascript:void(0);">Контакты</a>
+								</li>
+								<li>
+									<a href="./action-list.html">Акции</a>
+								</li>
+							</ul>
+							<div class="choose-phone">
+								<a class="chosen-phone" href="javascript:void(0);"><span class="active-tel">8 (495) 212 85 06</span> <span class="arrow"></span>
+								</a>
+								<ul class="dropdownn"> 
+									<li><a href="javascript:void(0);"><span>8 (495) 212 85 07</span></a></li>
+									<li><a href="javascript:void(0);"><span>8 (495) 212 85 08</span></a></li>
+									<li><a href="javascript:void(0);"><span>8 (495) 212 85 09</span></a></li>
+								</ul>								
+							</div>
+							<div class="order-call"><a href="javascript:void(0);">Заказать звонок</a>
+								<div class="order-call-dropzone dropdownn">
+									<button class="close-bt" data-toggle="dropdown" aria-expanded="true"></button>
+									<form class="registation-form">
+										<input type="text" placeholder="Имя">
+										<input type="text" placeholder="Телефон">
+										<button type="button">Перезвоните  мне</button>										
+									</form>
+								</div>
+							</div>
+							<div class="enter"><span class="arrow"></span><a href="javascript:void(0);">Войти</a>
+								<div class="enter-dropzone dropdownn">
+									<button class="close-bt" data-toggle="dropdown" aria-expanded="true"></button>
+									<div class="text-separate">
+										Через соц. сети
+									</div>
+									<div class="enter-social">										
+										<ul>
+											<li><a href="#" class="vk"></a></li>
+											<li><a href="#" class="tw"></a></li>
+											<li><a href="#" class="f"></a></li>
+											<li><a href="#" class="i"></a></li>
+										</ul>
+									</div>
+									<div class="text-separate">
+										или
+									</div>
+									<form class="registation-form">
+										<input type="text" placeholder="Эл. почта">
+										<input type="text" placeholder="Пароль">
+										<button type="button">Войти</button>
+										<p><a href="#">Забыли пароль?</a></p>
+										<p><a hreflang="ru" href="./registration.html">Регистрация</a>, если у вас нет учетной записи</p>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="bottom-part">
+							<button class="top-filter-toggle" data-toggle="dropdown" aria-expanded="true">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>							
+							<ul id="top-filters">
+								<li>
+									<a href="javascript:void(0);">Женщинам</a>
+								</li>
+								<li>
+									<a href="javascript:void(0);">Мужчинам</a>
+								</li>
+								<li>
+									<a href="javascript:void(0);">Аксессуары</a>
+								</li>
+								<li>
+									<a href="javascript:void(0);">Новинки</a>
+								</li>
+								<li>
+									<a href="javascript:void(0);">Распродажа</a>
+								</li>
+							</ul>
+							<form class="search-form">
+								<input type="text" placeholder="Поиск товара">
+								<button class="search" type="button"></button>
+							</form>
+							<!--<a class="search" href="javascript:void(0);"></a>-->
+						</div>
+					</div>
+					<div class="cart-inner">
+						<a class="cart" href="./cart.html">Корзина<span>1</span></a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div id="content" class="index">
+			<div class="banners">
+				<div class="container-fluid">	
+					<ul id="slider">
+						<li><a href="javascript:void(0);"><img src="./dist/img/banner.png" alt="Наушники Sony"></a></li>
+						<li><a href="javascript:void(0);"><img src="./dist/img/banner.png" alt="Наушники Sony"></a></li>
+						<li><a href="javascript:void(0);"><img src="./dist/img/banner.png" alt="Наушники Sony"></a></li>
+						<li><a href="javascript:void(0);"><img src="./dist/img/banner.png" alt="Наушники Sony"></a></li>
+						<li><a href="javascript:void(0);"><img src="./dist/img/banner.png" alt="Наушники Sony"></a></li>
+					</ul>
+				</div>	
+			</div>
+			<div class="info">
+				<div class="container">
+					<ul id="info">
+						<li>
+							<a href="./action.html" class="info-inner">
+								<span href="javascript:void(0);" class="title-info">Новинки</span>
+								<div class="info-title">Лето прощай</div>
+								<span>Осення коллекция <br> свитшотов Native Rose </span>
+							</a>
+						</li>
+						<li>
+							<a href="#" class="info-inner">
+								<span href="javascript:void(0);" class="title-info">Акции</span>
+								<div class="info-title">Приоденься!</div>
+								<span>Покупай мужской костюм от 5000 руб., получай бесплатную доставку</span>
+							</a>
+						</li>
+						<li>
+							<div>
+								<span>Будь в курсе</span>
+								<p>Подпишись на рассылку</p>
+								<span>Узнавай о последних <br> спецпредложениях и акциях первым!</span>
+								<form>
+									<input type="text" placeholder="Электроная почта">
+									<button type="submit">ОК!</button>
+								</form>
+							</div>
+							
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="popular">
+				<div class="container">
+					<div class="product-wrapper">
+						<div class="product-inner product-filter">
+							<div class="product-section">
+								<p class="title">Популярные товары</p>
+								<ul>
+									<li>
+										<a class="active" href="javascript:void(0);">Мужчинам</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">Женщинам</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">Аксессуары</a>
+									</li>		
+								</ul>
+							</div>
+						</div>						
+						<div class="product-inner">
+							<div class="photo">
+								<a href="./product.html">
+									<img src="./dist/img/product1.png" alt="">
+								</a>
+							</div>
+							<div class="description">
+								<span>Арт: 34567</span>
+								<a  href="./product.html" class="product-name">Поло Puma</a>
+								<p class="product-price">1635 руб. <span></span></p>
+							</div>
+						</div>
+						<div class="product-inner">
+							<div class="photo">
+								<a href="javascript:void(0);">
+									<img src="./dist/img/product2.png" alt="">
+								</a>
+							</div>
+							<div class="description">
+								<span>Арт: 34567</span>
+								<a  href="javascript:void(0);" class="product-name">Шорты s.Oliver Denim</a>
+								<p class="product-price">4 456 руб. <span>4 456 руб.</span></p>
+							</div>
+						</div>
+						<div class="product-inner">
+							<div class="photo">
+								<a href="javascript:void(0);">
+									<img src="./dist/img/product3.png" alt="">
+								</a>
+							</div>
+							<div class="description">
+								<span>Арт: 34567</span>
+								<a  href="javascript:void(0);" class="product-name">Кроссовки Reebok Classics CL LEATHER SM</a>
+								<p class="product-price">1635 руб. <span></span></p>
+							</div>
+						</div>
+						<div class="product-inner">
+							<div class="photo">
+								<a href="javascript:void(0);">
+									<img src="./dist/img/product4.png" alt="">
+								</a>
+							</div>
+							<div class="description">
+								<span>Арт: 34567</span>
+								<a  href="javascript:void(0);" class="product-name">Футболка Jack & Jones</a>
+								<p class="product-price">1635 руб. <span></span></p>
+							</div>
+						</div>											
+					</div>							
+				</div>
+			</div>
+			<div class="new">
+				<div class="container">
+					<div class="product-wrapper">
+						<div class="product-inner product-filter">
+							<div class="product-section">
+								<p class="title">Новинки</p>
+								<ul>
+									<li>
+										<a href="javascript:void(0);">Мужчинам</a>
+									</li>
+									<li>
+										<a class="active" href="javascript:void(0);">Женщинам</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">Аксессуары</a>
+									</li>		
+								</ul>
+								<a href="javascript:void(0);" id="all-prodct-bt" class="all-product">Все предложения</a>
+							</div>
+						</div>
+						<div class="product-inner">
+							<div class="photo">
+								<a href="javascript:void(0);">
+									<img src="./dist/img/product5.png" alt="">
+								</a>
+							</div>
+							<div class="description">
+								<span>Арт: 34567</span>
+								<a  href="javascript:void(0);" class="product-name">Платье Amplebox</a>
+								<p class="product-price">1635 руб. <span></span></p>
+							</div>
+						</div>
+						<div class="product-inner">
+							<div class="photo">
+								<a href="javascript:void(0);">
+									<img src="./dist/img/product6.png" alt="">
+								</a>
+							</div>
+							<div class="description">
+								<span>Арт: 34567</span>
+								<a  href="javascript:void(0);" class="product-name">Шорты s.Oliver Denim</a>
+								<p class="product-price">4 456 руб. <span>4 456 руб.</span></p>
+							</div>
+						</div>
+						<div class="product-inner">
+							<div class="photo">
+								<a href="javascript:void(0);">
+									<img src="./dist/img/product7.png" alt="">
+								</a>
+							</div>
+							<div class="description">
+								<span>Арт: 34567</span>
+								<a  href="javascript:void(0);" class="product-name">Кроссовки Reebok Classics CL LEATHER SM</a>
+								<p class="product-price">1635 руб. <span></span></p>
+							</div>
+						</div>
+						<div class="product-inner">
+							<div class="photo">
+								<a href="javascript:void(0);">
+									<img src="./dist/img/product8.png" alt="">
+								</a>
+							</div>
+							<div class="description">
+								<span>Арт: 34567</span>
+								<a  href="javascript:void(0);" class="product-name">Юбка Jennyfer</a>
+								<p class="product-price">1635 руб. <span></span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>		
+			<div class="benefits">
+				<div class="container">
+					<div class="benefits-wrapper">
+						<div class="title">
+							Наши приемущества
+						</div>	
+						<ul>
+							<li>
+								<p>Быстрая доставка по России</p>
+							</li>
+							<li>
+								<p>Высокое качество товара</p>
+							</li>
+							<li>
+								<p>Гарантия и возврат</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="news">
+				<div class="container">
+					<div class="news-wrapper">
+						<div class="title">
+							Новости
+						</div>
+						<ul>
+							<li>
+								<div class="news-top">
+									<span class="news-date">24 августа</span>
+								</div>
+								<a href="javascript:void(0);" class="news-description">
+									Тренды нового сезона —
+									узкие брюки и кожанные
+									аксессуары
+								</a>
+							</li>
+							<li>
+								<a href="#"></a>
+							</li>
+							<li>
+								<div class="news-top">
+									<span class="news-date">24 августа</span>
+								</div>
+								<a href="javascript:void(0);" class="news-description">
+									Готовимся к зиме!
+								</a>
+							</li>
+							<li>
+								<a href="#"></a>
+							</li>
+							<li>
+								<div class="news-top">
+									<span class="news-date">24 августа</span>
+								</div>
+								<a href="javascript:void(0);" class="news-description">
+									Как носить и с чем<br>
+									сочетать шляпы, <br>
+									панамы, кепки<br>
+									и бейсболки.
+								</a>								
+							</li>
+							<li>
+								<a href="#"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="container">
+				<a  class="footer-logo-mob" href="javascript:void(0);">© 2015</a>
+				<button class="footer-menu-toggle" data-toggle="dropdown" aria-expanded="true">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+				<ul class="footer-menu">
+					<li><a  class="footer-logo" href="javascript:void(0);">© 2015</a></li>
+					<li><a href="javascript:void(0);">Доставка и оплата</a></li>
+					<li><a href="javascript:void(0);">Наши магазины</a></li>
+					<li><a href="javascript:void(0);">Новости</a></li>
+					<li><a href="javascript:void(0);">Контакты</a></li>
+					<li><a href="./action.html">Акции</a></li>
+				</ul>
+				<ul class="sotial-bt">
+					<li><a href="#" target="_blank" class="vk"></a></li>
+					<li><a href="#" target="_blank" class="fb"></a></li>
+					<li><a href="#" target="_blank" class="i"></a></li>
+					<li><a href="#" target="_blank" class="tw"></a></li>
+				</ul>
+			</div>
+		</footer>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="dist/js/production.min.js"></script>		
+		<div class="backopacity"></div>
+		<div class="new-bt-mob">
+			<ul id="top-mob-filters">
+				<li>
+					<a href="javascript:void(0);">Женщинам</a>
+				</li>
+				<li>
+					<a href="javascript:void(0);">Мужчинам</a>
+				</li>
+				<li>
+					<a href="javascript:void(0);">Аксессуары</a>
+				</li>
+				<li>
+					<a href="javascript:void(0);">Новинки</a>
+				</li>
+				<li>
+					<a href="javascript:void(0);">Распродажа</a>
+				</li>
+			</ul>
+			<ul class="top-menu">
+				<li>
+					<a href="javascript:void(0);">Доставка и оплата</a>
+				</li>
+				<li>
+					<a href="javascript:void(0);">Наши магазины</a>
+				</li>
+				<li>
+					<a href="javascript:void(0);">Новости</a>
+				</li>
+				<li>
+					<a href="javascript:void(0);">Контакты</a>
+				</li>
+				<li>
+					<a href="./action-list.html">Акции</a>
+				</li>
+			</ul>
+			<ul id="other-head-links">
+				<li>
+					<a href="./cart.html">Корзина</a>
+				</li>
+				<li>
+					<a href="javascript:void(0);">Войти</a>
+				</li>
+			</ul>	
+		</div>	
+	</body>		
+</html>
